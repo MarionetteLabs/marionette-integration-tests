@@ -1,0 +1,12 @@
+{
+  "name": "marionette_integration_tests",
+  "scripts": {
+    "bower": "bower update",
+    "test": "dill --require test/steps/ --require test/widgets/ --format=pretty",
+    "test-headless": "dill --require test/steps/ --require test/widgets/ --format=pretty --driver=phantomjs"
+  },
+  "devDependencies": {
+    "bower": "~1.3.3",
+    "dill": "~0.1.1"
+  }
+}
